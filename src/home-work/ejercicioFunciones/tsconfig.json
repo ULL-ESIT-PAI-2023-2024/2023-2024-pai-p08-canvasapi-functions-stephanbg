@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": "./",
+    "outDir": "./compiled",
+    "declaration": true,
+    "declarationDir": "../typings",
+    "alwaysStrict": true,
+    "strict": true,
+    "lib": ["ESNext", "dom"],
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,    
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "lib",
+    "test",
+    "public"
+  ]
+}
